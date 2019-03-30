@@ -19,10 +19,10 @@ if (!file_exists($fileLocation))
     mkdir ($fileLocation); // create subdirectory, if necessary
 
 // execute debugging code...
-// echo phpinfo(); exit(); // to see location of php.ini
+ //echo phpinfo(); exit(); // to see location of php.ini
 // note: can't set php.ini:file_uploads on the fly
 // echo ini_set('file_uploads', '1'); // "set" does not work
-// echo ini_get('file_uploads'); // "get" does work
+ //echo ini_get('file_uploads'); // "get" does work
 // echo "<pre>"; print_r(ini_get_all()); echo "</pre>"; exit();
 // echo "<pre>"; print_r($_FILES); echo "</pre>"; exit(); 
 
