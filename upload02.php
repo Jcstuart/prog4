@@ -3,7 +3,7 @@
 // see HTML form (upload02.html) for overview of this program
 
 // include code for database access
-require '../database/database.php';
+require 'database.php';
 
 // set PHP variables from data in HTML form 
 $fileName       = $_FILES['Filename']['name'];
